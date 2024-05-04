@@ -26,6 +26,82 @@ mods = {
                     "url": "https://gcdn.thunderstore.io/live/repository/packages/anormaltwig-LateCompany-1.0.13.zip",
                     "file": "anormaltwig-LateCompany-1.0.13.zip",
                     "hash": "fa4b7e09797ecfdce21429d577f7bf9a9b4e472fd8deb3d19fad8b8f2e329149"
+                },
+                {
+                    "name": "ShipLoot",
+                    "url": "https://gcdn.thunderstore.io/live/repository/packages/tinyhoot-ShipLoot-1.1.0.zip",
+                    "file": "tinyhoot-ShipLoot-1.1.0.zip",
+                    "hash": "3f5306dc714dd710d8f394f4b5f75cdee2cc811780ae48fe7f23c9d301acc3c1"
+                },
+                {
+                    "name": "MoreItems",
+                    "url": "https://gcdn.thunderstore.io/live/repository/packages/Drakorle-MoreItems-1.0.2.zip",
+                    "file": "Drakorle-MoreItems-1.0.2.zip",
+                    "hash": "69bdfbc748ea6d2b1320fb1c4636c5b9936308cbdbaf423dcb82116d1f33d952"
+                }
+            ]
+        },
+
+        "qol": {
+            "name": "Quality of Life",
+            "description": "Mods that improve the quality of the game",
+            "hidden": False,
+            "require": [
+                "foundation"
+            ],
+            "mods": [
+                {
+                    "name": "DynamicDeadline",
+                    "url": "https://gcdn.thunderstore.io/live/repository/packages/Krayken-DynamicDeadline-1.2.2.zip",
+                    "file": "Krayken-DynamicDeadline-1.2.2.zip",
+                    "hash": "2b80716c40e33c3de2321f994ec420691691773630c92821580832217ad395a8"
+                },
+                {
+                    "name": "WeatherMultipliers",
+                    "url": "https://gcdn.thunderstore.io/live/repository/packages/Blorb-WeatherMultipliers-1.1.0.zip",
+                    "file": "Blorb-WeatherMultipliers-1.1.0.zip",
+                    "hash": "82c13f9328854debbabb18dd620f2c05749e36526d66242c5690a6c2d9d25963"
+                },
+                {
+                    "name": "ReservedFlashlightSlot",
+                    "url": "https://gcdn.thunderstore.io/live/repository/packages/FlipMods-ReservedFlashlightSlot-2.0.3.zip",
+                    "file": "FlipMods-ReservedFlashlightSlot-2.0.3.zip",
+                    "hash": "f1ad73b63748a0f95b0eb88cce737b302b0532b646deee82c6dc0df51f815a7f"
+                },
+                {
+                    "name": "ReservedWalkieSlot",
+                    "url": "https://gcdn.thunderstore.io/live/repository/packages/FlipMods-ReservedWalkieSlot-2.0.5.zip",
+                    "file": "FlipMods-ReservedWalkieSlot-2.0.5.zip",
+                    "hash": "c55e720ca8cd5a599ccff2c9a3610e8a4b91cb04d26a3acd93cb97df0179ca79"
+                },
+                {
+                    "name": "ReservedItemSlotCore",
+                    "url": "https://gcdn.thunderstore.io/live/repository/packages/FlipMods-ReservedItemSlotCore-2.0.25.zip",
+                    "file": "FlipMods-ReservedItemSlotCore-2.0.25.zip",
+                    "hash": "7145ba3a39cceddd3119156851bdbb321a8d3b7b24b231c91d2eae8b0101219e"
+                },
+                {
+                    "name": "EladsHUD",
+                    "url": "https://gcdn.thunderstore.io/live/repository/packages/EladNLG-EladsHUD-1.2.1.zip",
+                    "file": "EladNLG-EladsHUD-1.2.1.zip",
+                    "hash": "3ce4bfb60bcc682596986b7b86c357e3e8d480bbb87302d16bec3b0febb1d349"
+                }
+            ]
+        },
+
+        "admin": {
+            "name": "Admin",
+            "description": "Mods that add admin tools to the game",
+            "hidden": False,
+            "require": [
+                "foundation"
+            ],
+            "mods": [
+                {
+                    "name": "ChatCommands",
+                    "url": "https://gcdn.thunderstore.io/live/repository/packages/CTMods-ChatCommands-1.1.92.zip",
+                    "file": "CTMods-ChatCommands-1.1.92.zip",
+                    "hash": "6ae829a2d65660ba8091d3f11895663e48f9727821e05828f82d7993dafbe031"
                 }
             ]
         },
@@ -92,6 +168,8 @@ mods = {
             "hidden": False,
             "require": [
                 "foundation",
+                "qol",
+                "admin",
                 "emotes",
                 "anime-suits"
             ],
@@ -216,7 +294,7 @@ def print_help(message = False):
         print(message)
         print()
 
-    print("Lethal Zhopa 2024-05-04.1 (year-month-day.edition)")
+    print("Lethal Zhopa 2024-05-04.2 (year-month-day.edition)")
     print()
     print("Use `python3 lethal-zhopa.py setup <game path> <extensions>` to setup the mods to the game")
     print("Example: `python3 lethal-zhopa.py setup \"C:\\Games\\Lethal Company\" full`")
