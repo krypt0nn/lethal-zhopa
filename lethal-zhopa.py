@@ -134,6 +134,12 @@ mods = {
                     "url": "https://gcdn.thunderstore.io/live/repository/packages/SirTyler-BetterTeleporter-1.2.2.zip",
                     "file": "SirTyler-BetterTeleporter-1.2.2.zip",
                     "hash": "b8ba2e768c08cf679636d80314af958600c7706313ee32f0955e510ccb8eddb8"
+                },
+                {
+                    "name": "MobDrops",
+                    "url": "https://gcdn.thunderstore.io/live/repository/packages/MamboDancer-MobDrops-1.3.0.zip",
+                    "file": "MamboDancer-MobDrops-1.3.0.zip",
+                    "hash": "afee0e70674b35a38c404dbcdd409f9bc33a7230be587a053fce1b1e09ffe004"
                 }
             ]
         },
@@ -211,25 +217,37 @@ mods = {
             ]
         },
 
-        "fumos": {
-            "name": "Fumos",
-            "description": "Mods that add fumos to the game",
+        "scrap": {
+            "name": "Scrap",
+            "description": "Mods with additional scrap and items",
             "hidden": False,
             "require": [
                 "foundation"
             ],
             "mods": [
                 {
-                    "name": "FumoCompany",
-                    "url": "https://gcdn.thunderstore.io/live/repository/packages/silhygames-FumoCompany-1.2.4.zip",
-                    "file": "silhygames-FumoCompany-1.2.4.zip",
-                    "hash": "4ab44efc701f20b16dbc2fbfc74f95a5d1df103d9070bae26f9b7631c5607920"
+                    "name": "MinecraftScraps",
+                    "url": "https://gcdn.thunderstore.io/live/repository/packages/rainbow137-MinecraftScraps-1.4.3.zip",
+                    "file": "rainbow137-MinecraftScraps-1.4.3.zip",
+                    "hash": "d7778aa1ac5d4bfa6d5cde7cb2f86ce19f2df4162dac442924c1c40f30bc45b0"
                 },
                 {
-                    "name": "LethalExpansion",
-                    "url": "https://gcdn.thunderstore.io/live/repository/packages/HolographicWings-LethalExpansion-1.2.16.zip",
-                    "file": "HolographicWings-LethalExpansion-1.2.16.zip",
-                    "hash": "ca6194ce3e17063d3f749068d256617958594ae2ed9598493627e29530939741"
+                    "name": "AlltheScrapsMod",
+                    "url": "https://gcdn.thunderstore.io/live/repository/packages/czech_lethal-AlltheScrapsMod-1.1.7.zip",
+                    "file": "czech_lethal-AlltheScrapsMod-1.1.7.zip",
+                    "hash": "483569604074fa98a1131f5a113fea451361cc5eea579d4439d27995ba6a68cb"
+                },
+                {
+                    "name": "LethalExpansionCore",
+                    "url": "https://gcdn.thunderstore.io/live/repository/packages/jockie-LethalExpansionCore-1.3.15.zip",
+                    "file": "jockie-LethalExpansionCore-1.3.15.zip",
+                    "hash": "3cd7f4d6ca58f1fab5678005a249bea9f586df9b66efd3e5939c0bf8eb431c05"
+                },
+                {
+                    "name": "Maxwell ScrapItem",
+                    "url": "https://gcdn.thunderstore.io/live/repository/packages/Kittenji-Maxwell_ScrapItem-1.0.1.zip",
+                    "file": "Kittenji-Maxwell_ScrapItem-1.0.1.zip",
+                    "hash": "9b1cbe521145d781763edf9bcc963ee42700ceca1d1bee91eebeb341410b9f63"
                 }
             ]
         },
@@ -245,7 +263,7 @@ mods = {
                 "admin",
                 "emotes",
                 "anime-suits",
-                "fumos"
+                "scrap"
             ],
             "mods": []
         }
@@ -368,7 +386,7 @@ def print_help(message = False):
         print(message)
         print()
 
-    print("Lethal Zhopa 2024-05-04.3 (year-month-day.edition)")
+    print("Lethal Zhopa 2024-05-04.4 (year-month-day.edition)")
     print()
     print("Use `python3 lethal-zhopa.py setup <game path> <extensions>` to setup the mods to the game")
     print("Example: `python3 lethal-zhopa.py setup \"C:\\Games\\Lethal Company\" full`")
