@@ -69,6 +69,30 @@ mods = {
                     "url": "https://gcdn.thunderstore.io/live/repository/packages/linkoid-DissonanceLagFix-1.0.0.zip",
                     "file": "linkoid-DissonanceLagFix-1.0.0.zip",
                     "hash": "b6ae0efed7f5e78cd2d8564ed13a39b8c6ad4407b769e1f216b19bcb27b6e8a8"
+                },
+                {
+                    "name": "LCMaxSoundsFix",
+                    "url": "https://gcdn.thunderstore.io/live/repository/packages/Hardy-LCMaxSoundsFix-1.1.0.zip",
+                    "file": "Hardy-LCMaxSoundsFix-1.1.0.zip",
+                    "hash": "c53a9c01605d4809be2f4b8fa49ba54da877c87218ca28237e0fbc81e793e7f8"
+                },
+                {
+                    "name": "Boombox Sync Fix",
+                    "url": "https://gcdn.thunderstore.io/live/repository/packages/FutureSavior-Boombox_Sync_Fix-1.1.2.zip",
+                    "file": "FutureSavior-Boombox_Sync_Fix-1.1.2.zip",
+                    "hash": "6bef30c95298ed272efe13ac4b6d49ca0f1c7f05d044263d2178ba5be4c86a93"
+                },
+                {
+                    "name": "DoorFix",
+                    "url": "https://gcdn.thunderstore.io/live/repository/packages/itsmeowdev-DoorFix-1.0.0.zip",
+                    "file": "itsmeowdev-DoorFix-1.0.0.zip",
+                    "hash": "6ce41e432d49c02c34a184e28ee800a0b5e5fe18a08a3ec2416c8450864c950f"
+                },
+                {
+                    "name": "FixResolution",
+                    "url": "https://gcdn.thunderstore.io/live/repository/packages/nodelll-kruumys_FixResolution-1.0.0.zip",
+                    "file": "nodelll-kruumys_FixResolution-1.0.0.zip",
+                    "hash": "fd983a6a0e72a2823e5349d0fa19a99c269d58497f266cceff4936d6abdbf621"
                 }
             ]
         },
@@ -386,7 +410,7 @@ def print_help(message = False):
         print(message)
         print()
 
-    print("Lethal Zhopa 2024-05-04.4 (year-month-day.edition)")
+    print("Lethal Zhopa 2024-05-04.5 (year-month-day.edition)")
     print()
     print("Use `python3 lethal-zhopa.py setup <game path> <extensions>` to setup the mods to the game")
     print("Example: `python3 lethal-zhopa.py setup \"C:\\Games\\Lethal Company\" full`")
