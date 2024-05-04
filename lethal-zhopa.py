@@ -9,6 +9,14 @@ mods = {
     },
 
     "extensions": {
+        "engine": {
+            "name": "Engine",
+            "description": "Just install the mods engine to the game",
+            "hidden": False,
+            "require": [],
+            "mods": []
+        },
+
         "foundation": {
             "name": "Foundation",
             "description": "Basic mods setup",
@@ -28,16 +36,39 @@ mods = {
                     "hash": "fa4b7e09797ecfdce21429d577f7bf9a9b4e472fd8deb3d19fad8b8f2e329149"
                 },
                 {
-                    "name": "ShipLoot",
-                    "url": "https://gcdn.thunderstore.io/live/repository/packages/tinyhoot-ShipLoot-1.1.0.zip",
-                    "file": "tinyhoot-ShipLoot-1.1.0.zip",
-                    "hash": "3f5306dc714dd710d8f394f4b5f75cdee2cc811780ae48fe7f23c9d301acc3c1"
-                },
-                {
                     "name": "MoreItems",
                     "url": "https://gcdn.thunderstore.io/live/repository/packages/Drakorle-MoreItems-1.0.2.zip",
                     "file": "Drakorle-MoreItems-1.0.2.zip",
                     "hash": "69bdfbc748ea6d2b1320fb1c4636c5b9936308cbdbaf423dcb82116d1f33d952"
+                },
+                {
+                    "name": "LethalConfig",
+                    "url": "https://gcdn.thunderstore.io/live/repository/packages/AinaVT-LethalConfig-1.4.2.zip",
+                    "file": "AinaVT-LethalConfig-1.4.2.zip",
+                    "hash": "8428de265fed698c11c36916da9971043af1fcfa307b3478ddd838fc4ca6306c"
+                }
+            ]
+        },
+
+        "fixes": {
+            "name": "Fixes",
+            "description": "Mods that fix the game",
+            "hidden": False,
+            "require": [
+                "foundation"
+            ],
+            "mods": [
+                {
+                    "name": "PathfindingLagFix",
+                    "url": "https://gcdn.thunderstore.io/live/repository/packages/Zaggy1024-PathfindingLagFix-1.2.1.zip",
+                    "file": "Zaggy1024-PathfindingLagFix-1.2.1.zip",
+                    "hash": "862babc450d94c125ba7f678d0dcf5e545e09194c6d3f17cb3f4a14008b03e12"
+                },
+                {
+                    "name": "DissonanceLagFix",
+                    "url": "https://gcdn.thunderstore.io/live/repository/packages/linkoid-DissonanceLagFix-1.0.0.zip",
+                    "file": "linkoid-DissonanceLagFix-1.0.0.zip",
+                    "hash": "b6ae0efed7f5e78cd2d8564ed13a39b8c6ad4407b769e1f216b19bcb27b6e8a8"
                 }
             ]
         },
@@ -50,6 +81,12 @@ mods = {
                 "foundation"
             ],
             "mods": [
+                {
+                    "name": "ShipLoot",
+                    "url": "https://gcdn.thunderstore.io/live/repository/packages/tinyhoot-ShipLoot-1.1.0.zip",
+                    "file": "tinyhoot-ShipLoot-1.1.0.zip",
+                    "hash": "3f5306dc714dd710d8f394f4b5f75cdee2cc811780ae48fe7f23c9d301acc3c1"
+                },
                 {
                     "name": "DynamicDeadline",
                     "url": "https://gcdn.thunderstore.io/live/repository/packages/Krayken-DynamicDeadline-1.2.2.zip",
@@ -85,6 +122,18 @@ mods = {
                     "url": "https://gcdn.thunderstore.io/live/repository/packages/EladNLG-EladsHUD-1.2.1.zip",
                     "file": "EladNLG-EladsHUD-1.2.1.zip",
                     "hash": "3ce4bfb60bcc682596986b7b86c357e3e8d480bbb87302d16bec3b0febb1d349"
+                },
+                {
+                    "name": "OpenBodyCams",
+                    "url": "https://gcdn.thunderstore.io/live/repository/packages/Zaggy1024-OpenBodyCams-1.3.0.zip",
+                    "file": "Zaggy1024-OpenBodyCams-1.3.0.zip",
+                    "hash": "c62737de859f09f7eca4ac33d5522e66eaf07c4d59696c3baba963940f106df5"
+                },
+                {
+                    "name": "BetterTeleporter",
+                    "url": "https://gcdn.thunderstore.io/live/repository/packages/SirTyler-BetterTeleporter-1.2.2.zip",
+                    "file": "SirTyler-BetterTeleporter-1.2.2.zip",
+                    "hash": "b8ba2e768c08cf679636d80314af958600c7706313ee32f0955e510ccb8eddb8"
                 }
             ]
         },
@@ -162,16 +211,41 @@ mods = {
             ]
         },
 
+        "fumos": {
+            "name": "Fumos",
+            "description": "Mods that add fumos to the game",
+            "hidden": False,
+            "require": [
+                "foundation"
+            ],
+            "mods": [
+                {
+                    "name": "FumoCompany",
+                    "url": "https://gcdn.thunderstore.io/live/repository/packages/silhygames-FumoCompany-1.2.4.zip",
+                    "file": "silhygames-FumoCompany-1.2.4.zip",
+                    "hash": "4ab44efc701f20b16dbc2fbfc74f95a5d1df103d9070bae26f9b7631c5607920"
+                },
+                {
+                    "name": "LethalExpansion",
+                    "url": "https://gcdn.thunderstore.io/live/repository/packages/HolographicWings-LethalExpansion-1.2.16.zip",
+                    "file": "HolographicWings-LethalExpansion-1.2.16.zip",
+                    "hash": "ca6194ce3e17063d3f749068d256617958594ae2ed9598493627e29530939741"
+                }
+            ]
+        },
+
         "full": {
             "name": "Full",
             "description": "Install all available mods",
             "hidden": False,
             "require": [
                 "foundation",
+                "fixes",
                 "qol",
                 "admin",
                 "emotes",
-                "anime-suits"
+                "anime-suits",
+                "fumos"
             ],
             "mods": []
         }
@@ -294,7 +368,7 @@ def print_help(message = False):
         print(message)
         print()
 
-    print("Lethal Zhopa 2024-05-04.2 (year-month-day.edition)")
+    print("Lethal Zhopa 2024-05-04.3 (year-month-day.edition)")
     print()
     print("Use `python3 lethal-zhopa.py setup <game path> <extensions>` to setup the mods to the game")
     print("Example: `python3 lethal-zhopa.py setup \"C:\\Games\\Lethal Company\" full`")
