@@ -284,7 +284,7 @@ mods = {
 
         "anime-suits": {
             "name": "Anime Suits",
-            "description": "Mods that add suits from the Blue Archive to the game",
+            "description": "Mod that adds suits from the Blue Archive to the game",
             "hidden": False,
             "require": [
                 "foundation",
@@ -342,7 +342,7 @@ mods = {
 
         "new-features": {
             "name": "New Features",
-            "description": "Add new game mechanics",
+            "description": "Mods that add new game mechanics",
             "hidden": False,
             "require": [
                 "foundation"
