@@ -186,13 +186,6 @@ mods = {
                     "hash": "b8ba2e768c08cf679636d80314af958600c7706313ee32f0955e510ccb8eddb8"
                 },
                 {
-                    "name": "MobDrops",
-                    "description": "All killable mobs drop VALUABLE SCRAP! (even mod included)!",
-                    "url": "https://gcdn.thunderstore.io/live/repository/packages/MamboDancer-MobDrops-1.3.0.zip",
-                    "file": "MamboDancer-MobDrops-1.3.0.zip",
-                    "hash": "afee0e70674b35a38c404dbcdd409f9bc33a7230be587a053fce1b1e09ffe004"
-                },
-                {
                     "name": "FairAI",
                     "description": "Everyone that can die will die by stepping on land mines or by facing turrets",
                     "url": "https://gcdn.thunderstore.io/live/repository/packages/TheFluff-FairAI-1.3.5.zip",
@@ -349,6 +342,13 @@ mods = {
             ],
             "mods": [
                 {
+                    "name": "MobDrops",
+                    "description": "All killable mobs drop VALUABLE SCRAP! (even mod included)!",
+                    "url": "https://gcdn.thunderstore.io/live/repository/packages/MamboDancer-MobDrops-1.3.0.zip",
+                    "file": "MamboDancer-MobDrops-1.3.0.zip",
+                    "hash": "afee0e70674b35a38c404dbcdd409f9bc33a7230be587a053fce1b1e09ffe004"
+                },
+                {
                     "name": "LethalProgression",
                     "description": "Leveling and skillpoints!",
                     "url": "https://gcdn.thunderstore.io/live/repository/packages/Stoneman-LethalProgression-1.3.2.zip",
@@ -356,6 +356,33 @@ mods = {
                     "hash": "d23605235d73ea0c8b4dffb54ebfdf0a09cdcaea0045b623269894f39525b534"
                 }
             ]
+        },
+
+        "lite": {
+            "name": "Lite",
+            "description": "Install QoL and bug fixes mods",
+            "hidden": False,
+            "require": [
+                "foundation",
+                "fixes",
+                "qol"
+            ],
+            "mods": []
+        },
+
+        "vanilla+": {
+            "name": "Vanilla+",
+            "description": "Install QoL, bug fixes, emotes and new features mods",
+            "hidden": False,
+            "require": [
+                "foundation",
+                "fixes",
+                "qol",
+                "admin",
+                "emotes",
+                "new-features"
+            ],
+            "mods": []
         },
 
         "full": {
@@ -493,7 +520,7 @@ def print_help(message = False):
         print(message)
         print()
 
-    print("Lethal Zhopa 2024-05-05.1 (year-month-day.edition)")
+    print("Lethal Zhopa 2024-05-05.2 (year-month-day.edition)")
     print()
     print("Use `python3 lethal-zhopa.py setup <game path> <extensions>` to setup the mods to the game")
     print("Example: `python3 lethal-zhopa.py setup \"C:\\Games\\Lethal Company\" full`")

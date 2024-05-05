@@ -22,7 +22,15 @@ Lethal Zhopa provides different "extensions" - groups of related mods. I mostly 
 | Anime Suits | Mod that adds suits from the Blue Archive to the game | Blue Archive Playermodels |
 | Scrap | Mods with additional scrap and items | MinecraftScraps, AlltheScrapsMod, ... |
 | New Features | Mods that add new game mechanics | LethalProgression |
+| Lite | Install QoL and bug fixes mods | |
+| Vanilla+ | Install QoL, bug fixes, emotes and new features mods | |
 | Full | Install all available mods | |
+
+It's recommended to install "metaextensions" - extensions of extensions - "lite", "vanilla+" or "full".
+
+- Lite is a fixed base-game variant with a few QoL mods and several lag/bug fixes.
+- Vanilla+ is the same as Lite + emotes and new features (LethalProgression).
+- Full is full.
 
 # How to use?
 
