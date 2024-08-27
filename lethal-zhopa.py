@@ -3,9 +3,9 @@ import os, sys, io, shutil, hashlib, zipfile, urllib.request, tempfile
 mods = {
     "engine": {
         "name": "BepInEx",
-        "url": "https://gcdn.thunderstore.io/live/repository/packages/bbepis-BepInExPack-5.4.2115.zip",
-        "file": "bbepis-BepInExPack-5.4.2115.zip",
-        "hash": "b921741a54fbe0f164f9983d81adf591e64a012c9abc7386b8e60014067fbcb4"
+        "url": "https://gcdn.thunderstore.io/live/repository/packages/BepInEx-BepInExPack-5.4.2100.zip",
+        "file": "BepInEx-BepInExPack-5.4.2100.zip",
+        "hash": "a6d473510fa87652f1e9e5d87c4b4c103ea2cdd7e8ecb2c0b20fdbfcc2935698"
     },
 
     "extensions": {
@@ -534,7 +534,7 @@ def print_help(message = False):
         print(message)
         print()
 
-    print("Lethal Zhopa 2024-08-27.1 (year-month-day.edition)")
+    print("Lethal Zhopa 2024-08-27.2 (year-month-day.edition)")
     print()
     print("Use `python3 lethal-zhopa.py setup <game path> <extensions>` to setup the mods to the game")
     print("Example: `python3 lethal-zhopa.py setup \"C:\\Games\\Lethal Company\" full`")

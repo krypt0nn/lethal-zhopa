@@ -18,9 +18,9 @@ Lethal Zhopa provides different "extensions" - groups of related mods. I mostly 
 | - | - | - |
 | Foundation | Basic mods setup | MoreCompany, LateCompany, MoreItems, ... |
 | Fixes | Mods that fix the game | PathfindingLagFix, Boombox Sync Fix, DoorFix, ... |
-| Quality of Life | Mods that improve the quality of the game | ShipLoot, DynamicDeadline, WeatherMultipliers, ReservedItemSlot, ... |
+| Quality of Life | Mods that improve the quality of the game | ShipLoot, DynamicDeadline, MeteoMultiplier, ReservedItemSlot, ... |
 | Admin | Mods that add admin tools to the game | ChatCommands |
-| Emotes | Mods that add emotes to the game | TooManyEmotes |
+| Emotes | Mods that add emotes to the game | TooManyEmotes, TooManyEmotesScrap |
 | Anime Suits | Mod that adds suits from the Blue Archive to the game | Blue Archive Playermodels |
 | Scrap | Mods with additional scrap and items | MinecraftScraps, AlltheScrapsMod, ... |
 | New Features | Mods that add new game mechanics | LethalProgression |
@@ -33,6 +33,9 @@ It's recommended to install "metaextensions" - extensions of extensions - "lite"
 - Lite is a fixed base-game variant with a few QoL mods and several lag/bug fixes.
 - Vanilla+ is the same as Lite + emotes and new features (LethalProgression).
 - Full is full.
+
+> Note: scrap mods were not updated by the maintainers for a long period of time and can be broken.
+> Thus using full build might not be a good idea.
 
 # How to use?
 
@@ -68,6 +71,16 @@ python3 lethal-zhopa.py setup 'C:\Games\Lethal Company' full
 
 ```bash
 python3 lethal-zhopa.py remove 'C:\Games\Lethal Company'
+```
+
+## Wine support
+
+Linux users need to force wine to load the custom `winhttp.dll` library with a hook
+for a mod loader to launch. This can be achieved by adding this environment variable
+to the game launch (steam options):
+
+```bash
+WINEDLLOVERRIDES="winhttp=n,b" %command%
 ```
 
 Author: [Nikita Podvirnyi](https://github.com/krypt0nn)\
