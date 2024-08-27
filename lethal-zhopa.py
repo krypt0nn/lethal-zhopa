@@ -3,9 +3,9 @@ import os, sys, io, shutil, hashlib, zipfile, urllib.request, tempfile
 mods = {
     "engine": {
         "name": "BepInEx",
-        "url": "https://gcdn.thunderstore.io/live/repository/packages/BepInEx-BepInExPack-5.4.2100.zip",
-        "file": "BepInEx-BepInExPack-5.4.2100.zip",
-        "hash": "a6d473510fa87652f1e9e5d87c4b4c103ea2cdd7e8ecb2c0b20fdbfcc2935698"
+        "url": "https://gcdn.thunderstore.io/live/repository/packages/bbepis-BepInExPack-5.4.2115.zip",
+        "file": "bbepis-BepInExPack-5.4.2115.zip",
+        "hash": "b921741a54fbe0f164f9983d81adf591e64a012c9abc7386b8e60014067fbcb4"
     },
 
     "extensions": {
@@ -26,16 +26,16 @@ mods = {
                 {
                     "name": "MoreCompany",
                     "description": "A stable lobby player count expansion mod. With cosmetics!",
-                    "url": "https://gcdn.thunderstore.io/live/repository/packages/notnotnotswipez-MoreCompany-1.9.1.zip",
-                    "file": "notnotnotswipez-MoreCompany-1.9.1.zip",
-                    "hash": "8f90716a51671fa0e2e57df51dec4faf04ae967346c33f16c069f63dc7f80281"
+                    "url": "https://gcdn.thunderstore.io/live/repository/packages/notnotnotswipez-MoreCompany-1.10.1.zip",
+                    "file": "notnotnotswipez-MoreCompany-1.10.1.zip",
+                    "hash": "2561942fa6ec6f2fc0e9c6eee5fdc659f40c9bcfb7e9df74db30daf3cb6fe0cf"
                 },
                 {
                     "name": "LateCompany",
                     "description": "A mod to allow players to join after the game starts",
-                    "url": "https://gcdn.thunderstore.io/live/repository/packages/anormaltwig-LateCompany-1.0.13.zip",
-                    "file": "anormaltwig-LateCompany-1.0.13.zip",
-                    "hash": "fa4b7e09797ecfdce21429d577f7bf9a9b4e472fd8deb3d19fad8b8f2e329149"
+                    "url": "https://gcdn.thunderstore.io/live/repository/packages/anormaltwig-LateCompany-1.0.18.zip",
+                    "file": "anormaltwig-LateCompany-1.0.18.zip",
+                    "hash": "16d4ba28e4ae233141e59c9fcf78471120e38f01f1fa23745df9f6e033aed91a"
                 },
                 {
                     "name": "MoreItems",
@@ -65,9 +65,9 @@ mods = {
                 {
                     "name": "PathfindingLagFix",
                     "description": "Lethal Company mod to fix stutters caused by the AI of Brackens, Spore Lizards, and Snare Fleas",
-                    "url": "https://gcdn.thunderstore.io/live/repository/packages/Zaggy1024-PathfindingLagFix-1.2.1.zip",
-                    "file": "Zaggy1024-PathfindingLagFix-1.2.1.zip",
-                    "hash": "862babc450d94c125ba7f678d0dcf5e545e09194c6d3f17cb3f4a14008b03e12"
+                    "url": "https://gcdn.thunderstore.io/live/repository/packages/Zaggy1024-PathfindingLagFix-1.4.0.zip",
+                    "file": "Zaggy1024-PathfindingLagFix-1.4.0.zip",
+                    "hash": "0e2a6db6e60f8f94e3c87a35800f5ec52dcc7bc28aaa6eca6f8f6fc51e029e47"
                 },
                 {
                     "name": "DissonanceLagFix",
@@ -79,16 +79,16 @@ mods = {
                 {
                     "name": "LCMaxSoundsFix",
                     "description": "Simple mod that increase max number of simultaneous playing sounds, hopefully fixing missing sound problems",
-                    "url": "https://gcdn.thunderstore.io/live/repository/packages/Hardy-LCMaxSoundsFix-1.1.0.zip",
-                    "file": "Hardy-LCMaxSoundsFix-1.1.0.zip",
-                    "hash": "c53a9c01605d4809be2f4b8fa49ba54da877c87218ca28237e0fbc81e793e7f8"
+                    "url": "https://gcdn.thunderstore.io/live/repository/packages/Hardy-LCMaxSoundsFix-1.2.0.zip",
+                    "file": "Hardy-LCMaxSoundsFix-1.2.0.zip",
+                    "hash": "53d988a154449f6bd8d4f655d14bbb6740af2ff926563d640d817889b7c84de3"
                 },
                 {
                     "name": "Boombox Sync Fix",
                     "description": "This mod fixes a base game bug where an already spawned boombox does not play the same song between the client and host",
-                    "url": "https://gcdn.thunderstore.io/live/repository/packages/FutureSavior-Boombox_Sync_Fix-1.1.2.zip",
-                    "file": "FutureSavior-Boombox_Sync_Fix-1.1.2.zip",
-                    "hash": "6bef30c95298ed272efe13ac4b6d49ca0f1c7f05d044263d2178ba5be4c86a93"
+                    "url": "https://gcdn.thunderstore.io/live/repository/packages/FutureSavior-Boombox_Sync_Fix-1.1.3.zip",
+                    "file": "FutureSavior-Boombox_Sync_Fix-1.1.3.zip",
+                    "hash": "908c6e465d9a28af8a932bb4d43543f97961ebd3216b5c07eaec480623e4b106"
                 },
                 {
                     "name": "DoorFix",
@@ -107,9 +107,9 @@ mods = {
                 {
                     "name": "CullFactory",
                     "description": "Stops rendering interior rooms that aren't visible. Helps with performance without affecting visuals",
-                    "url": "https://gcdn.thunderstore.io/live/repository/packages/fumiko-CullFactory-1.1.1.zip",
-                    "file": "fumiko-CullFactory-1.1.1.zip",
-                    "hash": "e4cc5917b933585ade1be8f033486d09ba9c40679999464287a87b06c50fd732"
+                    "url": "https://gcdn.thunderstore.io/live/repository/packages/fumiko-CullFactory-1.3.2.zip",
+                    "file": "fumiko-CullFactory-1.3.2.zip",
+                    "hash": "0fc927bf65b760dad6e5de81b9273f46cd447215ee649f5d207d8b4a2387c0cd"
                 }
             ]
         },
@@ -137,46 +137,46 @@ mods = {
                     "hash": "2b80716c40e33c3de2321f994ec420691691773630c92821580832217ad395a8"
                 },
                 {
-                    "name": "WeatherMultipliers",
-                    "description": "Moons with active weather will contain scrap with higher value",
-                    "url": "https://gcdn.thunderstore.io/live/repository/packages/Blorb-WeatherMultipliers-1.1.0.zip",
-                    "file": "Blorb-WeatherMultipliers-1.1.0.zip",
-                    "hash": "82c13f9328854debbabb18dd620f2c05749e36526d66242c5690a6c2d9d25963"
+                    "name": "MeteoMultiplier",
+                    "description": "Multiplies scrap value and/or amount by current weather",
+                    "url": "https://gcdn.thunderstore.io/live/repository/packages/Fredolx-MeteoMultiplier-1.1.3.zip",
+                    "file": "Fredolx-MeteoMultiplier-1.1.3.zip",
+                    "hash": "4e1a78dcab1e237ec8281ae7e1a91d2ab111944b290539e9361442596890f290"
                 },
                 {
                     "name": "ReservedFlashlightSlot",
                     "description": "Gives a dedicated Flashlight slot on the right side of your screen. Activates with [F]",
-                    "url": "https://gcdn.thunderstore.io/live/repository/packages/FlipMods-ReservedFlashlightSlot-2.0.3.zip",
-                    "file": "FlipMods-ReservedFlashlightSlot-2.0.3.zip",
-                    "hash": "f1ad73b63748a0f95b0eb88cce737b302b0532b646deee82c6dc0df51f815a7f"
+                    "url": "https://gcdn.thunderstore.io/live/repository/packages/FlipMods-ReservedFlashlightSlot-2.0.7.zip",
+                    "file": "FlipMods-ReservedFlashlightSlot-2.0.7.zip",
+                    "hash": "59b52bcdee64662f1078ad608eddf7bdc2554a764e680479d34ad92c9f80db54"
                 },
                 {
                     "name": "ReservedWalkieSlot",
                     "description": "Gives a dedicated Walkie slot on the right side of your screen. Activates with [X]",
-                    "url": "https://gcdn.thunderstore.io/live/repository/packages/FlipMods-ReservedWalkieSlot-2.0.5.zip",
-                    "file": "FlipMods-ReservedWalkieSlot-2.0.5.zip",
-                    "hash": "c55e720ca8cd5a599ccff2c9a3610e8a4b91cb04d26a3acd93cb97df0179ca79"
+                    "url": "https://gcdn.thunderstore.io/live/repository/packages/FlipMods-ReservedWalkieSlot-2.0.6.zip",
+                    "file": "FlipMods-ReservedWalkieSlot-2.0.6.zip",
+                    "hash": "75b362aa3bcbd991e0e3ea2fc61bfdc6b635ca3a28925b520263e5e85432e5a2"
                 },
                 {
                     "name": "ReservedItemSlotCore",
                     "description": "The core mod for all ReservedItemSlot mods",
-                    "url": "https://gcdn.thunderstore.io/live/repository/packages/FlipMods-ReservedItemSlotCore-2.0.25.zip",
-                    "file": "FlipMods-ReservedItemSlotCore-2.0.25.zip",
-                    "hash": "7145ba3a39cceddd3119156851bdbb321a8d3b7b24b231c91d2eae8b0101219e"
+                    "url": "https://gcdn.thunderstore.io/live/repository/packages/FlipMods-ReservedItemSlotCore-2.0.35.zip",
+                    "file": "FlipMods-ReservedItemSlotCore-2.0.35.zip",
+                    "hash": "cf710feb8c1cb3de708c7747e062c59a06ab950246f422b323995b51dd8477e8"
                 },
                 {
                     "name": "EladsHUD",
                     "description": "A nice HUD menu",
-                    "url": "https://gcdn.thunderstore.io/live/repository/packages/EladNLG-EladsHUD-1.2.1.zip",
-                    "file": "EladNLG-EladsHUD-1.2.1.zip",
-                    "hash": "3ce4bfb60bcc682596986b7b86c357e3e8d480bbb87302d16bec3b0febb1d349"
+                    "url": "https://gcdn.thunderstore.io/live/repository/packages/EladNLG-EladsHUD-1.3.0.zip",
+                    "file": "EladNLG-EladsHUD-1.3.0.zip",
+                    "hash": "772ecfd42629d3b18a49174f233418ff4612d81500865c60ad15cc4048d6ddec"
                 },
                 {
                     "name": "OpenBodyCams",
                     "description": "An implementation of a body camera that is displayed on the bottom right monitor in the ship",
-                    "url": "https://gcdn.thunderstore.io/live/repository/packages/Zaggy1024-OpenBodyCams-1.3.0.zip",
-                    "file": "Zaggy1024-OpenBodyCams-1.3.0.zip",
-                    "hash": "c62737de859f09f7eca4ac33d5522e66eaf07c4d59696c3baba963940f106df5"
+                    "url": "https://gcdn.thunderstore.io/live/repository/packages/Zaggy1024-OpenBodyCams-2.2.4.zip",
+                    "file": "Zaggy1024-OpenBodyCams-2.2.4.zip",
+                    "hash": "f76eb7a906cb5c6234dd8eceb7dc5bd6ba470c887560104980a41e741b61c4f1"
                 },
                 {
                     "name": "BetterTeleporter",
@@ -188,23 +188,30 @@ mods = {
                 {
                     "name": "FairAI",
                     "description": "Everyone that can die will die by stepping on land mines or by facing turrets",
-                    "url": "https://gcdn.thunderstore.io/live/repository/packages/TheFluff-FairAI-1.3.5.zip",
-                    "file": "TheFluff-FairAI-1.3.5.zip",
-                    "hash": "eb928f909e48c9f8cafd0c4e464f2f3c1ca1b2feaaa153a9c4d8f8cf553c8750"
+                    "url": "https://gcdn.thunderstore.io/live/repository/packages/TheFluff-FairAI-1.3.9.zip",
+                    "file": "TheFluff-FairAI-1.3.9.zip",
+                    "hash": "727b191701fcaa46e30421146c58f89e6c49a337b8cfe99c54635385d9321ebb"
                 },
                 {
-                    "name": "JumpDelayPatch",
-                    "description": "(Mostly) patches out the delay when jumping",
-                    "url": "https://gcdn.thunderstore.io/live/repository/packages/monkes_mods-JumpDelayPatch-1.0.1.zip",
-                    "file": "monkes_mods-JumpDelayPatch-1.0.1.zip",
-                    "hash": "a316f6c195aa2f8d35f9e40ebfbdd00bba365a5fccbfd237d6b2a2f7798f6699"
+                    "name": "NoJumpDelay",
+                    "description": "Removes the delay when jumping",
+                    "url": "https://gcdn.thunderstore.io/live/repository/packages/DaXcess-NoJumpDelay-1.0.0.zip",
+                    "file": "DaXcess-NoJumpDelay-1.0.0.zip",
+                    "hash": "49ee2c2dafe1fc8f50093ef5b3d181c3322edd93769d5a758152b10a9762452c"
                 },
                 {
                     "name": "ViewExtension",
                     "description": "Increases the view distance",
-                    "url": "https://gcdn.thunderstore.io/live/repository/packages/sfDesat-ViewExtension-1.2.0.zip",
-                    "file": "sfDesat-ViewExtension-1.2.0.zip",
-                    "hash": "0bd46c57d7afcce171e34b765aec0e01dd844c4178221b997afe95b1c35d8420"
+                    "url": "https://gcdn.thunderstore.io/live/repository/packages/sfDesat-ViewExtension-1.3.0.zip",
+                    "file": "sfDesat-ViewExtension-1.3.0.zip",
+                    "hash": "52d7c06df5ba2f960930aa531262d8d1f7410a92edf3e9dd9e5745c8b13450b9"
+                },
+                {
+                    "name": "ObjectVolumeController",
+                    "description": "Allows adjusting the volume on the media objects, such as television and boombox",
+                    "url": "https://gcdn.thunderstore.io/live/repository/packages/FlipMods-ObjectVolumeController-1.1.1.zip",
+                    "file": "FlipMods-ObjectVolumeController-1.1.1.zip",
+                    "hash": "0711be67758e977cf42e404ff2d649c9a7571326c524be5c388620eb2c63231c"
                 }
             ]
         },
@@ -238,9 +245,16 @@ mods = {
                 {
                     "name": "TooManyEmotes",
                     "description": "Adds over 200 new emotes!",
-                    "url": "https://gcdn.thunderstore.io/live/repository/packages/FlipMods-TooManyEmotes-2.1.15.zip",
-                    "file": "FlipMods-TooManyEmotes-2.1.15.zip",
-                    "hash": "7008778dcd0fe4613c7d68bfdd90d861ed3c21fed2eef8324584ad6f5bf9eaa2"
+                    "url": "https://gcdn.thunderstore.io/live/repository/packages/FlipMods-TooManyEmotes-2.2.4.zip",
+                    "file": "FlipMods-TooManyEmotes-2.2.4.zip",
+                    "hash": "ad28c32db8ca890323b01c02220bb0f9409e0d9b698fabe389ffdb1262be0175"
+                },
+                {
+                    "name": "TooManyEmotesScrap",
+                    "description": "Adds grabbable emote props as scrap to moons!",
+                    "url": "https://gcdn.thunderstore.io/live/repository/packages/FlipMods-TooManyEmotesScrap-1.0.7.zip",
+                    "file": "FlipMods-TooManyEmotesScrap-1.0.7.zip",
+                    "hash": "d0e8c622c5f12b0afb9570a8ce49302639560c44e4b53d31f1dc2d6d2e059eac"
                 }
             ]
         },
@@ -261,16 +275,16 @@ mods = {
                 {
                     "name": "ModelReplacementAPI",
                     "description": "API to simplify model replacement",
-                    "url": "https://gcdn.thunderstore.io/live/repository/packages/BunyaPineTree-ModelReplacementAPI-2.4.4.zip",
-                    "file": "BunyaPineTree-ModelReplacementAPI-2.4.4.zip",
-                    "hash": "dfdec37cd3e35ee58b31ab8fe41aa2f35131663597549bebd986f0173dc5c269"
+                    "url": "https://gcdn.thunderstore.io/live/repository/packages/BunyaPineTree-ModelReplacementAPI-2.4.8.zip",
+                    "file": "BunyaPineTree-ModelReplacementAPI-2.4.8.zip",
+                    "hash": "6fd35d4582646656f4438b217947dc8b1d5e46c7de92785ce1ff766c776adbae"
                 },
                 {
                     "name": "TooManySuits",
                     "description": "More Suits Addon which adds pages to the suit rack",
-                    "url": "https://gcdn.thunderstore.io/live/repository/packages/Verity-TooManySuits-1.0.9.zip",
-                    "file": "Verity-TooManySuits-1.0.9.zip",
-                    "hash": "1ec7dacddffaa1018442025fcf316d154ad656bf81e841765a9c2f69f82e2179"
+                    "url": "https://gcdn.thunderstore.io/live/repository/packages/Verity-TooManySuits-1.1.0.zip",
+                    "file": "Verity-TooManySuits-1.1.0.zip",
+                    "hash": "cb5591c6307246549d2ed482d19bae406fc27294813523ffbda22cf450f68ea8"
                 }
             ]
         },
@@ -441,10 +455,10 @@ def verify_hash(path, file_hash):
 
 # Download the component, returning path to the downloaded file
 def download(component, cache_folder):
-    print(f"[*] Downloading {component["name"]}...")
+    print(f"[*] Downloading {component['name']}...")
 
-    cache_folder = f"{cache_folder}/{component["hash"]}"
-    cache_path = f"{cache_folder}/{component["file"]}"
+    cache_folder = f"{cache_folder}/{component['hash']}"
+    cache_path = f"{cache_folder}/{component['file']}"
 
     if os.path.exists(cache_path) and verify_hash(cache_path, component["hash"]):
         print("    - Skipping, already downloaded")
@@ -499,12 +513,12 @@ def uninstall_engine(game_path):
 
 # Install mod to the game folder
 def install_mod(game_path, mod_path, mod_info):
-    print(f"[*] Installing {mod_info["name"]}...")
+    print(f"[*] Installing {mod_info['name']}...")
 
     if not is_game_folder(game_path):
         print("[!] GIVEN GAME FOLDER PATH IS INVALID. SKIPPING")
 
-    elif os.path.exists(f"{game_path}/BepInEx/plugins/{mod_info["name"]}"):
+    elif os.path.exists(f"{game_path}/BepInEx/plugins/{mod_info['name']}"):
         print("    - Skipping, already installed")
 
     elif not verify_hash(mod_path, mod_info["hash"]):
@@ -512,7 +526,7 @@ def install_mod(game_path, mod_path, mod_info):
 
     else:
         with zipfile.ZipFile(mod_path, 'r') as file:
-            file.extractall(f"{game_path}/BepInEx/plugins/{mod_info["name"]}")
+            file.extractall(f"{game_path}/BepInEx/plugins/{mod_info['name']}")
 
 # Print help message
 def print_help(message = False):
@@ -520,7 +534,7 @@ def print_help(message = False):
         print(message)
         print()
 
-    print("Lethal Zhopa 2024-05-05.2 (year-month-day.edition)")
+    print("Lethal Zhopa 2024-08-27.1 (year-month-day.edition)")
     print()
     print("Use `python3 lethal-zhopa.py setup <game path> <extensions>` to setup the mods to the game")
     print("Example: `python3 lethal-zhopa.py setup \"C:\\Games\\Lethal Company\" full`")
@@ -546,14 +560,14 @@ else:
                 extension = mods["extensions"][name]
 
                 if not extension["hidden"]:
-                    print(f"  {extension["name"]} [{name}]")
-                    print(f"    Description: {extension["description"]}")
+                    print(f"  {extension['name']} [{name}]")
+                    print(f"    Description: {extension['description']}")
 
                     if len(extension["mods"]) > 0:
-                        print(f"    Mods ({len(extension["mods"])}):")
+                        print(f"    Mods ({len(extension['mods'])}):")
 
                         for mod in extension["mods"]:
-                            print(f"      - [{mod["name"]}]: {mod["description"]}")
+                            print(f"      - [{mod['name']}]: {mod['description']}")
 
                     print()
 
