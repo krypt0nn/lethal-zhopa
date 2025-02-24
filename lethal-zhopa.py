@@ -389,13 +389,6 @@ mods = {
                     "url": "https://gcdn.thunderstore.io/live/repository/packages/doggosuki-Huntdown-1.6.2.zip",
                     "file": "doggosuki-Huntdown-1.6.2.zip",
                     "hash": "08046309f3673ab6616b89a1d0a87e3d9a42e06fdb1cead77eb6d71d69094777"
-                },
-                {
-                    "name": "LethalProgression",
-                    "description": "Leveling and skillpoints!",
-                    "url": "https://gcdn.thunderstore.io/live/repository/packages/Stoneman-LethalProgression-1.3.2.zip",
-                    "file": "Stoneman-LethalProgression-1.3.2.zip",
-                    "hash": "d23605235d73ea0c8b4dffb54ebfdf0a09cdcaea0045b623269894f39525b534"
                 }
             ]
         },
@@ -562,7 +555,7 @@ def print_help(message = ""):
         print(message)
         print()
 
-    print("Lethal Zhopa 2025-02-24.1 (year-month-day.edition)")
+    print("Lethal Zhopa 2025-02-24.2 (year-month-day.edition)")
     print()
     print("Use `python3 lethal-zhopa.py setup <game path> <extensions>` to setup the mods to the game")
     print("Example: `python3 lethal-zhopa.py setup \"C:\\Games\\Lethal Company\" full`")
