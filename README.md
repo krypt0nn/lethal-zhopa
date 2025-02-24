@@ -14,19 +14,19 @@ All the mods will also be available on the releases page so you could just downl
 
 Lethal Zhopa provides different "extensions" - groups of related mods. I mostly focus on QoL changes, so this extension has the largest amount of mods in the whole modpack.
 
-| Extension | Description | Featured mods |
-| - | - | - |
-| Foundation | Basic mods setup | MoreCompany, LateCompany, MoreItems, ... |
-| Fixes | Mods that fix the game | PathfindingLagFix, Boombox Sync Fix, DoorFix, ... |
-| Quality of Life | Mods that improve the quality of the game | ShipLoot, DynamicDeadline, MeteoMultiplier, ReservedItemSlot, ... |
-| Admin | Mods that add admin tools to the game | ChatCommands |
-| Emotes | Mods that add emotes to the game | TooManyEmotes, TooManyEmotesScrap |
-| Anime Suits | Mod that adds suits from the Blue Archive to the game | Blue Archive Playermodels |
-| Scrap | Mods with additional scrap and items | MinecraftScraps, AlltheScrapsMod, ... |
-| New Features | Mods that add new game mechanics | LethalProgression |
-| Lite | Install QoL and bug fixes mods | |
-| Vanilla+ | Install QoL, bug fixes, emotes and new features mods | |
-| Full | Install all available mods | |
+| Extension       | Description                                           | Featured mods                                                     |
+| --------------- | ----------------------------------------------------- | ----------------------------------------------------------------- |
+| Foundation      | Basic mods setup                                      | MoreCompany, LateCompany, MoreItems, ...                          |
+| Fixes           | Mods that fix the game                                | PathfindingLagFix, Boombox Sync Fix, DoorFix, ...                 |
+| Quality of Life | Mods that improve the quality of the game             | ShipLoot, DynamicDeadline, MeteoMultiplier, ReservedItemSlot, ... |
+| Admin           | Mods that add admin tools to the game                 | ChatCommands                                                      |
+| Emotes          | Mods that add emotes to the game                      | TooManyEmotes, TooManyEmotesScrap                                 |
+| Anime Suits     | Mod that adds suits from the Blue Archive to the game | Blue Archive Playermodels                                         |
+| Scrap           | Mods with additional scrap and items                  | MinecraftScraps, AlltheScrapsMod                                  |
+| New Features    | Mods that add new game mechanics                      | LethalProgression                                                 |
+| Lite            | Install QoL and bug fixes mods                        |                                                                   |
+| Vanilla+        | Install QoL, bug fixes, emotes and new features mods  |                                                                   |
+| Full            | Install all available mods                            |                                                                   |
 
 It's recommended to install "metaextensions" - extensions of extensions - "lite", "vanilla+" or "full".
 
