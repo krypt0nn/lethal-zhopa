@@ -4,31 +4,39 @@
 
 Lethal company mods installation script.
 
-Mods and BepInEx will be cached in the game folder under the `lethal-zhopa-cache` directory to speed up the commands.
+Mods and BepInEx will be cached in the game folder under the
+`lethal-zhopa-cache` directory to speed up the commands.
 
-Do not use this software if you don't know what are you doing. I will not explain any details or how to run it for you.
+Do not use this software if you don't know what are you doing. I will not
+explain any details or how to run it for you.
 
-All the mods will also be available on the releases page so you could just download the archive from there and extract it to the game folder instead of using this script.
+All the mods will also be available on the releases page so you could just
+download the archive from there and extract it to the game folder instead of
+using this script.
 
 # About modpack
 
-Lethal Zhopa provides different "extensions" - groups of related mods. I mostly focus on QoL changes, so this extension has the largest amount of mods in the whole modpack.
+Lethal Zhopa provides different "extensions" - groups of related mods. I mostly
+focus on QoL changes, so this extension has the largest amount of mods in the
+whole modpack.
 
-| Extension       | Description                                           | Featured mods                                                     |
-| --------------- | ----------------------------------------------------- | ----------------------------------------------------------------- |
-| Foundation      | Basic mods setup                                      | MoreCompany, LateCompany, MoreItems, ...                          |
-| Fixes           | Mods that fix the game                                | PathfindingLagFix, Boombox Sync Fix, DoorFix, ...                 |
-| Quality of Life | Mods that improve the quality of the game             | ShipLoot, DynamicDeadline, MeteoMultiplier, ReservedItemSlot, ... |
-| Admin           | Mods that add admin tools to the game                 | ChatCommands                                                      |
-| Emotes          | Mods that add emotes to the game                      | TooManyEmotes, TooManyEmotesScrap                                 |
-| Anime Suits     | Mod that adds suits from the Blue Archive to the game | Blue Archive Playermodels                                         |
-| Scrap           | Mods with additional scrap and items                  | MinecraftScraps, AlltheScrapsMod                                  |
-| New Features    | Mods that add new game mechanics                      | LethalProgression                                                 |
-| Lite            | Install QoL and bug fixes mods                        |                                                                   |
-| Vanilla+        | Install QoL, bug fixes, emotes and new features mods  |                                                                   |
-| Full            | Install all available mods                            |                                                                   |
+| Extension       | Description                                           | Featured mods                                     |
+| --------------- | ----------------------------------------------------- | ------------------------------------------------- |
+| Foundation      | Basic mods setup                                      | MoreCompany, LateCompany, MoreItems, ...          |
+| Fixes           | Mods that fix the game                                | PathfindingLagFix, Boombox Sync Fix, DoorFix, ... |
+| Quality of Life | Mods that improve the quality of the game             | ShipLoot, DynamicDeadline, ReservedItemSlot, ...  |
+| Admin           | Mods that add admin tools to the game                 | ChatCommands                                      |
+| Emotes          | Mods that add emotes to the game                      | TooManyEmotes, TooManyEmotesScrap                 |
+| Suits           | Mod that adds more suits to the game                  | TooManySuits, More Suits                          |
+| Scrap           | Mods with additional scrap and items                  | AlltheScrapsMod                                   |
+| Enemies         | Mods that add new enemies or update existing ones     | Mimics                                            |
+| VR              | Mods that add VR headset support to the game          | LethalCompanyVR, ...                              |
+| Lite            | Install QoL and bug fixes mods                        |                                                   |
+| Vanilla+        | Install QoL, bug fixes, emotes and new features mods  |                                                   |
+| Full            | Install all available mods                            |                                                   |
 
-It's recommended to install "metaextensions" - extensions of extensions - "lite", "vanilla+" or "full".
+It's recommended to install "metaextensions" (extensions of extensions) -
+"lite", "vanilla+" or "full".
 
 - Lite is a fixed base-game variant with a few QoL mods and several lag/bug fixes.
 - Vanilla+ is the same as Lite + emotes and new features (LethalProgression).
@@ -75,13 +83,13 @@ python3 lethal-zhopa.py remove 'C:\Games\Lethal Company'
 
 ## Wine support
 
-Linux users need to force wine to load the custom `winhttp.dll` library with a hook
-for a mod loader to launch. This can be achieved by adding this environment variable
-to the game launch (steam options):
+Linux users need to force wine to load the custom `winhttp.dll` library with a
+hook for a mod loader to launch. This can be achieved by adding this environment
+variable to the game launch (steam options):
 
 ```bash
 WINEDLLOVERRIDES="winhttp=n,b" %command%
 ```
 
-Author: [Nikita Podvirnyi](https://github.com/krypt0nn)\
+Author: [Nikita Podvirnyi](https://github.com/krypt0nn) \
 Licensed under [Unlicense](LICENSE)
