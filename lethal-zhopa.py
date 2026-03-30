@@ -466,14 +466,6 @@ mods = {
                     "file": "jockie-LethalExpansionCore-1.3.15.zip",
                     "hash": "3cd7f4d6ca58f1fab5678005a249bea9f586df9b66efd3e5939c0bf8eb431c05",
                     "hook": None
-                },
-                {
-                    "name": "Groan Tube Scrap",
-                    "description": "Adds the Groan Tube as a scrap, the one that goes 'AAAAEEEEEEEUUUU' when you flip it",
-                    "url": "https://gcdn.thunderstore.io/live/repository/packages/Kittenji-Groan_Tube_Scrap-1.0.4.zip",
-                    "file": "Kittenji-Groan_Tube_Scrap-1.0.4.zip",
-                    "hash": "88825653feb47ef8eba0d1c9003f8aa2415b37671e36d5e7f57f23542e10a53c",
-                    "hook": None
                 }
             ]
         },
