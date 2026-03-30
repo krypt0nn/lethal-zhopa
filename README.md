@@ -2,7 +2,7 @@
 
 # Lethal Zhopa
 
-Lethal company mods installation script.
+Lethal Company mods installation script.
 
 Mods and BepInEx will be cached in the game folder under the
 `lethal-zhopa-cache` directory to speed up the commands.
@@ -24,26 +24,30 @@ whole modpack.
 | --------------- | ----------------------------------------------------- | ------------------------------------------------- |
 | Foundation      | Basic mods setup                                      | MoreCompany, LateCompany, MoreItems, ...          |
 | Fixes           | Mods that fix the game                                | PathfindingLagFix, Boombox Sync Fix, DoorFix, ... |
-| Quality of Life | Mods that improve the quality of the game             | ShipLoot, DynamicDeadline, ReservedItemSlot, ...  |
-| Admin           | Mods that add admin tools to the game                 | ChatCommands                                      |
+| Quality of Life | Mods that improve the gaming experience               | ShipLoot, DynamicDeadline, ReservedItemSlot, ...  |
+| HUD             | Mods that change the game UI or add new elements      | ShipLootCruiser, EladsHUD                         |
 | Emotes          | Mods that add emotes to the game                      | TooManyEmotes, TooManyEmotesScrap                 |
 | Suits           | Mod that adds more suits to the game                  | TooManySuits, More Suits                          |
 | Scrap           | Mods with additional scrap and items                  | AlltheScrapsMod                                   |
 | Enemies         | Mods that add new enemies or update existing ones     | Mimics                                            |
 | VR              | Mods that add VR headset support to the game          | LethalCompanyVR, ...                              |
+| Admin           | Mods that add admin tools to the game                 | ChatCommands, NiceChat                            |
 | Lite            | Install QoL and bug fixes mods                        |                                                   |
-| Vanilla+        | Install QoL, bug fixes, emotes and new features mods  |                                                   |
+| Vanilla+        | Install QoL, bug fixes, emotes and suits mods         |                                                   |
 | Full            | Install all available mods                            |                                                   |
 
-It's recommended to install "metaextensions" (extensions of extensions) -
-"lite", "vanilla+" or "full".
+It's recommended to install "meta-extensions" (groups of extensions):
 
-- Lite is a fixed base-game variant with a few QoL mods and several lag/bug fixes.
-- Vanilla+ is the same as Lite + emotes and new features (LethalProgression).
-- Full is full.
+- Lite (`lite`) is a base game with fixes, performance improvements, quality
+  of life changes, and updated HUD. No base game mechanics are changed and no
+  new content is added.
+- Vanilla+ (`vanilla+`) is an extension of Lite that adds new emotes and suits.
+  Base game is kept unchanged as well.
+- Full (`full`) adds all the available mods, which is Vanilla+ with addition of
+  new scrap and enemies.
 
-> Note: scrap mods were not updated by the maintainers for a long period of time and can be broken.
-> Thus using full build might not be a good idea.
+VR mods are never installed automatically so you need to add `vr` as a suffix to
+the `setup` command.
 
 # How to use?
 
