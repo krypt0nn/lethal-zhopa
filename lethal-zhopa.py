@@ -155,6 +155,46 @@ mods = {
                     "file": "fumiko-CullFactory-2.0.4.zip",
                     "hash": "d648925cc4b7e790b3f23d46eabe37106f403d1aa214adbb4c9542c9310ac529",
                     "hook": None
+                },
+                {
+                    "name": "MaskFixes",
+                    "description": "Fixes several problems with mask items and masked enemies",
+                    "url": "https://gcdn.thunderstore.io/live/repository/packages/ButteryStancakes-MaskFixes-1.5.2.zip",
+                    "file": "ButteryStancakes-MaskFixes-1.5.2.zip",
+                    "hash": "11b4ad250c47b0988f442ca808f10edb97b77ce46c28d468403e7be4d3e40ce3",
+                    "hook": None
+                },
+                {
+                    "name": "MaskedInvisFix",
+                    "description": "Fixes bugs where masked are invisible",
+                    "url": "https://gcdn.thunderstore.io/live/repository/packages/VirusTLNR-MaskedInvisFix-0.0.2.zip",
+                    "file": "VirusTLNR-MaskedInvisFix-0.0.2.zip",
+                    "hash": "3b844de3554e142fc3477ce97fbb47f81f5ea02cbc9ec1ab954385321871019f",
+                    "hook": None
+                },
+                {
+                    "name": "DetourContext Dispose Fix",
+                    "description": "A BepInEx patcher to fix MonoMod.RuntimeDetour's DetourContext.Dispose not working",
+                    "url": "https://gcdn.thunderstore.io/live/repository/packages/Hamunii-DetourContext_Dispose_Fix-1.0.7.zip",
+                    "file": "Hamunii-DetourContext_Dispose_Fix-1.0.7.zip",
+                    "hash": "61c485f23fa99970d2944cea5c662f53fb2cc51d5b3179a9266af07b97d0926a",
+                    "hook": None
+                },
+                {
+                    "name": "StarlancerAIFix",
+                    "description": "Automatically assigns interior/exterior AI for enemies based on their spawn location",
+                    "url": "https://gcdn.thunderstore.io/live/repository/packages/AudioKnight-StarlancerAIFix-3.11.1.zip",
+                    "file": "AudioKnight-StarlancerAIFix-3.11.1.zip",
+                    "hash": "e9a1f28ed8f2e10e651bbd1880acac3dc3f64a8f0cac2ba1baac5e13dbc7362f",
+                    "hook": None
+                },
+                {
+                    "name": "BarberFixes",
+                    "description": "Fixes several issues with Barbers",
+                    "url": "https://gcdn.thunderstore.io/live/repository/packages/ButteryStancakes-BarberFixes-1.3.0.zip",
+                    "file": "ButteryStancakes-BarberFixes-1.3.0.zip",
+                    "hash": "3fb2b3419a670e9ccb98677e0b2b95619a393c9af17fd0b4d421f168fcc6ab58",
+                    "hook": None
                 }
             ]
         },
@@ -192,6 +232,14 @@ mods = {
                     "hook": None
                 },
                 {
+                    "name": "QuotaRollover",
+                    "description": "Anti-hoarding technology that only removes required credits for the quota instead of setting progress to 0",
+                    "url": "https://gcdn.thunderstore.io/live/repository/packages/boxofbiscuits97-QuotaRollover-2.5.0.zip",
+                    "file": "boxofbiscuits97-QuotaRollover-2.5.0.zip",
+                    "hash": "5a02ce2245640b0d962ff029571e540ddca47ba76b9379165243e61c84837184",
+                    "hook": None
+                },
+                {
                     "name": "ReservedFlashlightSlot",
                     "description": "Gives a dedicated Flashlight slot on the right side of your screen. Activates with [F]",
                     "url": "https://gcdn.thunderstore.io/live/repository/packages/FlipMods-ReservedFlashlightSlot-2.0.10.zip",
@@ -205,6 +253,14 @@ mods = {
                     "url": "https://gcdn.thunderstore.io/live/repository/packages/FlipMods-ReservedWalkieSlot-2.0.7.zip",
                     "file": "FlipMods-ReservedWalkieSlot-2.0.7.zip",
                     "hash": "d4832985cf064f72a33be957d6da1ac4585c549e1d36bb8b4a7ef5f94fae597b",
+                    "hook": None
+                },
+                {
+                    "name": "ReservedSprayPaintSlot",
+                    "description": "Gives a dedicated SprayPaint slot on the right side of your screen",
+                    "url": "https://gcdn.thunderstore.io/live/repository/packages/FlipMods-ReservedSprayPaintSlot-1.1.3.zip",
+                    "file": "FlipMods-ReservedSprayPaintSlot-1.1.3.zip",
+                    "hash": "bee25665c0f14e57ec4f4ac46ed7d1e326777dd4f23541f97d30d2a1cb525bf1",
                     "hook": None
                 },
                 {
@@ -269,6 +325,22 @@ mods = {
                     "url": "https://gcdn.thunderstore.io/live/repository/packages/FlipMods-ObjectVolumeController-1.1.3.zip",
                     "file": "FlipMods-ObjectVolumeController-1.1.3.zip",
                     "hash": "9e01849d998f607bc3637905eec830bc189e326306e2f8e2dbc5d21bd16eb952",
+                    "hook": None
+                },
+                {
+                    "name": "BetterSprayPaint",
+                    "description": "Significantly more responsive and reliable painting, many bug-fixes, infinite spray paint, longer range, quieter sounds.",
+                    "url": "https://gcdn.thunderstore.io/live/repository/packages/taffyko-BetterSprayPaint-2.1.0.zip",
+                    "file": "taffyko-BetterSprayPaint-2.1.0.zip",
+                    "hash": "62e27d0fb734f4aef44826cd84daf09f7004e78a20273bdd068c4d9647383e86",
+                    "hook": None
+                },
+                {
+                    "name": "LethalCompany InputUtils",
+                    "description": "API/Library for creating Unity InputActions with in-game re-binding support",
+                    "url": "https://gcdn.thunderstore.io/live/repository/packages/Rune580-LethalCompany_InputUtils-0.7.12.zip",
+                    "file": "Rune580-LethalCompany_InputUtils-0.7.12.zip",
+                    "hash": "4e84ba24100b4838007873b7c5082df7995e1d44266568cf3fe6d8277d0b8a6d",
                     "hook": None
                 }
             ]
@@ -359,6 +431,14 @@ mods = {
                     "file": "x753-More_Suits-1.5.2.zip",
                     "hash": "3172978c5aa30c580be81263e3fb89b4f545f9be4686c9d72b6242b82d55f4bd",
                     "hook": None
+                },
+                {
+                    "name": "SCP Foundation Suit",
+                    "description": "Adds an SCP Facility Guard suit to the game",
+                    "url": "https://gcdn.thunderstore.io/live/repository/packages/TeamClark-SCP_Foundation_Suit-1.1.0.zip",
+                    "file": "TeamClark-SCP_Foundation_Suit-1.1.0.zip",
+                    "hash": "6f91cfa18c47e6ec185360711725b975c6592ea9622c43526510027f3ebbb2fb",
+                    "hook": None
                 }
             ]
         },
@@ -385,6 +465,14 @@ mods = {
                     "url": "https://gcdn.thunderstore.io/live/repository/packages/jockie-LethalExpansionCore-1.3.15.zip",
                     "file": "jockie-LethalExpansionCore-1.3.15.zip",
                     "hash": "3cd7f4d6ca58f1fab5678005a249bea9f586df9b66efd3e5939c0bf8eb431c05",
+                    "hook": None
+                },
+                {
+                    "name": "Groan Tube Scrap",
+                    "description": "Adds the Groan Tube as a scrap, the one that goes 'AAAAEEEEEEEUUUU' when you flip it",
+                    "url": "https://gcdn.thunderstore.io/live/repository/packages/Kittenji-Groan_Tube_Scrap-1.0.4.zip",
+                    "file": "Kittenji-Groan_Tube_Scrap-1.0.4.zip",
+                    "hash": "88825653feb47ef8eba0d1c9003f8aa2415b37671e36d5e7f57f23542e10a53c",
                     "hook": None
                 }
             ]
@@ -677,7 +765,7 @@ def print_help(message: str = ""):
         print(message)
         print()
 
-    print("Lethal Zhopa 2026-03-30.1 (year-month-day.edition)")
+    print("Lethal Zhopa 2026-03-30.2 (year-month-day.edition)")
     print()
     print("Use `python3 lethal-zhopa.py setup <game path> <extensions>` to setup the mods to the game")
     print("Example: `python3 lethal-zhopa.py setup \"C:\\Games\\Lethal Company\" full`")
